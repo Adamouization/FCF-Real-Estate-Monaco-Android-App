@@ -4,11 +4,18 @@
 *.psd
 keys.rtf
 codeiris
+
+# src files
 app/src/androidTest
 app/src/test
+app/app-release.apk
+app/.gitignore
+app/proguard-rules.pro
+app/src/main/ic_launcher-web.png
 
 # Built application files
 /*/build/
+build/
 
 # Crashlytics configuations
 com_crashlytics_export_strings.xml
