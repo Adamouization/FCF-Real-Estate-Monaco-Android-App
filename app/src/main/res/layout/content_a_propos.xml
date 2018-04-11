@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_a_propos_background"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.monte_carlo_multimedia.adam_jaamour.fcfimmobilier.Informations.APropos"
+    tools:showIn="@layout/app_bar_a_propos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/a_propos_mainContent_marginTop"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/content_a_propos_version_left"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorSubject"
+                android:textSize="@dimen/a_propos_txtSize_left"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/content_a_propos_version_right"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/a_propos_txtSize_right"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/a_propos_linlaTextViews_marginTop"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/content_a_propos_copyrights_left"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorSubject"
+                android:textSize="@dimen/a_propos_txtSize_left"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/content_a_propos_copyrights_right"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/a_propos_txtSize_legal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/a_propos_linlaTextViews_marginTop"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/content_a_propos_site_left"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorSubject"
+                android:textSize="@dimen/a_propos_txtSize_left"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autoLink="web"
+                android:clickable="true"
+                android:gravity="right"
+                android:text="@string/content_a_propos_site_right"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/a_propos_txtSize_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/a_propos_btn_marginTop"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:text="@string/content_a_propos_email_bug_right"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/a_propos_txtSize_contactdeveloper"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/content_a_propos_btn_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:drawableRight="@drawable/ic_mail_outline"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

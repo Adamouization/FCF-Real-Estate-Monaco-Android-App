@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">FCF Immobilier</string>
+
+    <string name="google_api_key" translatable="false">AIzaSyDnRJ1ze4TmAyhBccIKfIH_SJXulSVrGdk</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!-- ACTIVITY MAIN DRAWER . XML -->
+    <string name="app_motto">L immobilier sur mesure</string>
+    <string name="drawer_title_offres">Offres</string>
+    <string name="drawer_accueil">Accueil</string>
+    <string name="drawer_vente">Ventes</string>
+    <string name="drawer_location">Location</string>
+    <string name="drawer_recherche">Recherche</string>
+    <string name="drawer_favoris">Favoris</string>
+    <string name="drawer_title_connectez_vous">Connectez-vous</string>
+    <string name="drawer_contact">Contact</string>
+    <string name="drawer_reseaux_sociaux">Réseaux Sociaux</string>
+    <string name="drawer_title_informations">Informations</string>
+    <string name="drawer_mentions_legales">Mentions Légales</string>
+    <string name="drawer_a_propos">A Propos</string>
+    <string name="drawer_aide">Aide</string>
+
+    <!-- CONTENT MAIN-->
+    <string name="content_main_vente">Vente</string>
+    <string name="content_main_location">Location</string>
+    <string name="content_main_recherche">Recherche</string>
+    <string name="content_main_favoris">Favoris</string>
+    <string name="content_main_contact">Contact</string>
+    <string name="content_main_social">Social</string>
+
+    <!-- CONTENT PRODUCT LIST -->
+    <string name="content_ventes_prix">Prix</string>
+    <string name="content_ventes_area">Superficie</string>
+    <string name="content_ventes_date">Date</string>
+    <string name="content_nb_of_items">Nombre de résultats: </string>
+
+    <!-- FAVORITE TOASTS-->
+    <string name="toast_favorite_added">Ajouté à vos favoris</string>
+    <string name="toast_favorite_removed">Retiré de vos favoris</string>
+
+    <!-- URL XML FEEDS -->
+    <string name="produit_area_not_available">Sur demande</string>
+    <!-- ventes fr -->
+    <string name="url_produit_vente"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=vente]]></string>
+    <string name="url_produit_vente_date_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=vente&order=date&sort=asc]]></string>
+    <string name="url_produit_vente_date_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=vente&order=date&sort=desc]]></string>
+    <string name="url_produit_vente_prix_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=vente&order=price&sort=asc]]></string>
+    <string name="url_produit_vente_prix_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=vente&order=price&sort=desc]]></string>
+    <string name="url_produit_vente_area_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=vente&order=area&sort=asc]]></string>
+    <string name="url_produit_vente_area_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=vente&order=area&sort=desc]]></string>
+    <!-- locations fr -->
+    <string name="url_produit_location"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=location]]></string>
+    <string name="url_produit_location_date_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=location&order=date&sort=asc]]></string>
+    <string name="url_produit_location_date_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=location&order=date&sort=desc]]></string>
+    <string name="url_produit_location_prix_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=location&order=price&sort=asc]]></string>
+    <string name="url_produit_location_prix_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=location&order=price&sort=desc]]></string>
+    <string name="url_produit_location_area_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=location&order=area&sort=asc]]></string>
+    <string name="url_produit_location_area_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=location&order=area&sort=desc]]></string>
+    <!-- url manipulation -->
+    <string name="url_manipulation_default" translatable="false"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=fr&search[agence][]=216&search[typeTransaction]=]]></string>
+    <string name="url_manipulation_search_vente" translatable="false">vente</string>
+    <string name="url_manipulation_search_location" translatable="false">location</string>
+
+    <!-- TOAST LIST ORDER CHANGED -->
+    <string name="toast_price_asc">Prix en ordre croissant</string>
+    <string name="toast_price_desc">Prix en ordre décroissant</string>
+    <string name="toast_area_asc">Superficie totale en ordre croissant</string>
+    <string name="toast_area_desc">Superficie totale en ordre décroissant</string>
+    <string name="toast_date_asc">Date de dernière modification en ordre croissant</string>
+    <string name="toast_date_desc">Date de dernière modification en ordre décroissant</string>
+
+    <!-- CONTENT PRODUCT DETAIL -->
+    <!-- view -->
+    <string name="content_produit_detail_ref">Référence:</string>
+    <string name="content_produit_detail_type">Type:</string>
+    <string name="content_produit_detail_nb_rooms">Nombre de chambres:</string>
+    <string name="content_produit_detail_total_area">Superficie totale:</string>
+    <string name="content_produit_detail_living_area">Superficie habitable:</string>
+    <string name="content_produit_detail_terrace_area">Superficie de la terrasse:</string>
+    <string name="content_produit_detail_building">Immeuble:</string>
+    <string name="content_produit_detail_district">Quartier:</string>
+    <string name="content_produit_detail_parking">Emplacement(s) parking:</string>
+    <string name="content_produit_detail_cellar">Cave(s):</string>
+    <string name="content_produit_detail_datel_created">Date de création:</string>
+    <string name="content_produit_detail_datel_last_modified">Dernière modification:</string>
+    <string name="content_produit_detail_gallerie_images">Galerie</string>
+    <!-- buttons -->
+    <string name="content_produit_detail_button_send_product">Envoyé fiche\nproduit:</string>
+    <string name="content_produit_detail_button_send_info_agency">Contacter\nl\'agence:</string>
+    <!-- email -->
+    <string name="content_produit_detail_email_agency" translatable="false">fcf@fcfrealestate.com</string>
+    <string name="content_produit_detail_email_signature">Envoyé de l\'application Android Cristea-Flandrin Immobilier</string>
+    <string name="content_produit_detail_email_subject_product">Détails supplémentaires offre immobilière</string>
+    <string name="content_produit_detail_email_body_product">Je souhaiterais avoir plusieurs d\'informations concernant ce produit:</string>
+    <string name="content_produit_detail_email_subject_information">Demande de renseignements</string>
+    <string name="content_produit_detail_email_body_information">Je souhaiterais avoir plus d\'informations concernant vos offres.</string>
+    <string name="content_produit_detail_email_body_reference">- Référence: </string>
+    <string name="content_produit_detail_email_body_price">- Prix: </string>
+    <string name="content_produit_detail_email_body_area">- Superficie: </string>
+
+    <!-- CONTENT SEARCH ENGINE -->
+    <!-- url manipulation -->
+    <string name="content_search_typeproduits_url"><![CDATA[http://api.immotoolbox.com/xml/2.0/MCRE/typesproduits/?_locale=fr]]></string>
+    <string name="content_search_detail_append" translatable="false">search</string>
+    <!-- view items -->
+    <string name="content_search_title">Recherche</string>
+    <string name="content_search_switch_ventes">Ventes</string>
+    <string name="content_search_switch_locations">Locations</string>
+    <string name="content_search_checkbox_country">Pays</string>
+    <string name="content_search_checkbox_nb_rooms">Nombre de chambres</string>
+    <string name="content_search_checkbox_type_product">Type de produit</string>
+    <string name="content_search_checkbox_price">Prix</string>
+    <string name="content_search_edittext_pricemin_hint">Prix min</string>
+    <string name="content_search_edittex_pricemax_hint">Prix max</string>
+    <string name="content_search_checkbox_area">Superficie</string>
+    <string name="content_search_edittext_areamin_hint">Superficie min</string>
+    <string name="content_search_edittex_areamax_hint">Superficie max</string>
+    <string name="content_search_button_reset">Annuler</string>
+    <string name="content_search_button_search">Rechercher</string>
+    <!-- toast -->
+    <string name="content_search_reset_search">Critères de recherche réinitialisés</string>
+    <string name="content_search_invalid_search">Veuillez sélectionner soit "ventes" soit "locations"</string>
+    <!-- detailed results view -->
+    <string name="content_search_result_title">Résultats de la recherche</string>
+    <string name="content_search_result_empty">Aucun résultat</string>
+
+    <!-- CONTENT FAVORIS -->
+    <string name="content_favoris_meny_supp">Supprimer</string>
+    <string name="content_favoris_empty_list">Vous n\'avez aucun favori pour le moment.</string>
+
+    <!-- CONTENT CONTACT -->
+    <string name="content_contact_adresse_left">Adresse: </string>
+    <string name="content_contact_adresse_right">1, Avenue St Laurent</string>
+    <string name="content_contact_horaires_left">Horaires: </string>
+    <string name="content_contact_horaires_right">09:00 à 18:00 du lundi au vendredi</string>
+    <string name="content_contact_tel_left">Téléphone: </string>
+    <string name="content_contact_tel_right" translatable="false">+377 93 30 22 46</string>
+    <string name="content_contact_fax_left" translatable="false">Fax: </string>
+    <string name="content_contact_fax_right" translatable="false">+377 93 50 31 88</string>
+    <string name="content_contact_website_left">Site web: </string>
+    <string name="content_contact_website_right" translatable="false">www.fcfrealestate.com</string>
+
+    <!-- CONTENT SOCIAL-->
+    <string name="content_social_facebook" translatable="false">Facebook</string>
+    <string name="content_social_google_plus" translatable="false">Google +</string>
+
+    <!-- CONTENT MENTIONS LEGALES -->
+    <string name="content_mentions_legales_titre">Mentions Légales</string>
+    <string name="content_mentions_legales_soon">Bientôt disponibles</string>
+    <string name="content_mentions_legales_content">
+\nLes informations contenues dans le serveur Web "" ont été obtenues auprès de sources considérées comme sérieuses.\n\n
+
+Monte-Carlo Multimédia, l\'éditeur, ne pourra en aucun cas être tenu pour responsable des omissions ou erreurs qui pourraient être trouvées par le lecteur, malgré toutes les précautions prises lors de la rédaction. Nous conseillons vivement au lecteur de se mettre directement en contact avec les services de l’administration et les professionnels compétents. Les documents reproduits le sont à titre indicatif et ne sont en aucun cas des documents contractuels.\n\n
+
+La reproduction ou l\'utilisation des présentations faites pour les annonceurs gratuits ou payants est, sauf convention expresse et écrite, interdite.\n\n
+
+Liens vers des sites de tiers : Le site internet de Monte-Carlo Multimédia contient des liens vers des sites de tiers qui ne sont pas sous le contrôle de Monte-Carlo Multimédia.\n\n
+
+Les liens sont proposés uniquement à titre de commodité et l\'inclusion d\'un lien n\'implique pas l\'approbation du site relié par Monte-Carlo Multimédia.\n\n
+
+Monte-Carlo Multimédia n\'assume aucune responsabilité quant au contenu, aux services, produits ou matériels offerts sur un site lié directement ou indirectement à celui de Monte-Carlo Multimédia.\n\n
+
+Monte-Carlo Multimedia est une société monégasque privée n\'ayant aucun lien avec le Gouvernement Monégasque.\n\n
+
+Monte-Carlo Multimédia, Monte-Carlo Online, monte-carlo.mc sont des marques déposées.\n\n
+
+Merci de signaler les erreurs ou omissions ainsi que les remarques et questions restées sans réponse à Monte-Carlo Multimédia.\n\n
+
+Monte-Carlo Multimedia\n
+15, allée Lazare Sauvaigo\n
+98000 Monaco\n
+Email : info@montecarlomultimedia.com</string>
+
+    <!-- CONTENT A PROPOS -->
+    <string name="content_a_propos_version_left">Version: </string>
+    <string name="content_a_propos_version_right" translatable="false">1.0.0</string>
+    <string name="content_a_propos_copyrights_left" translatable="false">Copyrights: </string>
+    <string name="content_a_propos_copyrights_right">App détenue par Monte-Carlo Multimédia</string>
+    <string name="content_a_propos_site_left">Site: </string>
+    <string name="content_a_propos_site_right" translatable="false">www.montecarlomultimedia.com</string>
+    <string name="content_a_propos_email_bug_left" translatable="false">Bugs: </string>
+    <string name="content_a_propos_email_bug_right">Si vous pensez avoir trouvé des bugs, contactez-nous: </string>
+    <string name="content_a_propos_email_developer" translatable="false">adam@jaamour.com</string>
+    <string name="content_a_propos_email_developer_subject">Bugs application Android CF Immobilier</string>
+    <string name="content_a_propos_email_developer_body">Bonjour, je pense avoir trouvé les bugs suivants dans votre application: ...</string>
+
+    <!-- CONTENT AIDE -->
+    <string name="content_aide_titre">Aide</string>
+    <string name="content_aide_Q1">Comment ajouter des favoris?</string>
+    <string name="content_aide_Q2">Comment effacer plusieurs favoris simultanément?</string>
+    <string name="content_aide_Q3">Comment accéder à la gallerie d\'images?</string>
+    <string name="content_aide_Q4">Comment envoyer un email à l\'agence?</string>
+    <string name="content_aide_A1">Une fois que vous êtes sur la page avec tous les détails d\'un produit, cliquez sur l\'icône en forme d\'étoile en haut à droite pour rajouter ce produit en favori. Si le fond de l\'icône est noir, cela veut dire que votre produit a bien été ajouté à votre liste de favoris.</string>
+    <string name="content_aide_A2">Pour effacer plusieurs favoris en un coup au lieu de le supprimer un à un, allez sur votre liste de favoris. Maintenant maintenez appuyé n\'importe quel favori de la liste, ce qui va activer le mode suppression. Vous pouvez maintenant sélectionner plusieurs favoris de la liste en les cliquant une fois, et appuyer sur le bouton supprimer pour enlever tous les favoris sélectionnés de la liste.</string>
+    <string name="content_aide_A3">Une fois que vous êtes sur la page des détails d\'un produit, vous verrez une image avec plusieurs petites images situées en dessous. Pour visionner ces images en haute qualité, cliquez sur l\'image du haut pour accéder le mode plein écran et ainsi mieux voir les détails des images en plein écran avec la possibilité de zoomer dessus.</string>
+    <string name="content_aide_A4">Pour envoyer un mail à l\'agence, allez soit sur la page contact et appuyez sur le bouton avec l\'icône de mail, soit allez sur n\'importe quel détail de produit et cliquez sur un des deux boutons en bas. La dernière option vous permet de contact l\'agence directement pour discuter du produit que vous êtes en train de visionner.</string>
+
+    <!-- OTHER  -->
+    <string name="action_mentions_legales">Mentions légales</string>
+    <string name="activity_contact">Contact</string>
+    <string name="activity_ventes">Ventes</string>
+    <string name="activity_locations">Locations</string>
+    <string name="activity_favoris">Favoris</string>
+    <string name="activity_social">Social</string>
+    <string name="content_ventes_title">Produits en vente</string>
+</resources>

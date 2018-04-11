@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MAIN HOME -->
+    <color name="colorBlackText">#000000</color>
+
+    <!-- PRODUIT DETAIL -->
+    <color name="colorBlackBackground">#ff000000</color>
+    <color name="colorBlackTxt">#000000</color>
+    <color name="colorMainProductTitle">#382323</color>
+    <color name="colorField">#5A3334</color>
+
+    <!-- SEARCH -->
+    <color name="colorCancelButton">#ff0000</color>
+    <color name="colorSearchButton">#0011ff</color>
+
+    <!-- FAVORITES MENU -->
+    <color name="colorHighlightedItem1">#d74d1b</color>
+    <color name="colorHighlightedItem2">#963613</color>
+
+    <!-- CONTACT & A PROPOS -->
+    <color name="colorSubject">#1b5cb4</color>
+
+    <!-- HELP -->
+    <color name="colorLinLaBackground">#23a1a1a1</color>
+
+    <!-- OTHER -->
+    <color name="colorPrimary">#613839</color>
+    <color name="colorPrimaryDark">#5A3334</color>
+    <color name="colorAccent">#B4684D</color>
+</resources>

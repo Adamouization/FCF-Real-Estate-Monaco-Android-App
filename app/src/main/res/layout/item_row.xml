@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:padding="@dimen/item_row_relativelayout_padding">
+
+    <!-- progress indicator when fetching image, invisible when image loaded -->
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- represents icon -->
+    <ImageView
+        android:id="@+id/iconImg"
+        android:layout_width="@dimen/item_row_imageview_widthHeight"
+        android:layout_height="@dimen/item_row_imageview_widthHeight"
+        android:layout_marginRight="@dimen/item_row_img_marginRight" />
+
+    <!-- TextView for name of the estate-->
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iconImg"
+        android:textColor="#343232"
+        android:textSize="@dimen/item_row_txtSize_title"
+        android:textStyle="bold" />
+
+    <!-- TextView for short description of the estate-->
+    <TextView
+        android:id="@+id/aboutTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameTxt"
+        android:layout_toRightOf="@id/iconImg"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#343232"
+        android:textSize="@dimen/item_row_txtSize_shortDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutTxt"
+        android:layout_marginTop="@dimen/item_row_linla_priceArea_marginTop"
+        android:layout_toRightOf="@id/iconImg"
+        android:orientation="horizontal">
+
+        <!-- TextView for the price of the estate-->
+        <TextView
+            android:id="@+id/priceTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:textColor="#343232"
+            android:textSize="@dimen/item_row_txtSize_price"
+            android:textStyle="bold" />
+
+        <!-- TextView for the total area of the estate-->
+        <TextView
+            android:id="@+id/areaTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#343232"
+            android:textSize="@dimen/item_row_txtSize_price"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

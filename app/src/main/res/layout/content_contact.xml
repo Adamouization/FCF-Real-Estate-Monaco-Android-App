@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_contact_background"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Agence.Contact"
+    tools:showIn="@layout/app_bar_contact">
+
+    <!-- android:background="@drawable/app_contact_background" -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/contact_agency_map"
+            android:name="com.monte_carlo_multimedia.adam_jaamour.fcfimmobilier.Agence.MapFragmentAgency"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/contact_mapfragment_height"
+            android:layout_marginTop="@dimen/contact_mapfragment_marginTop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/contact_mapfragment_marginTop"
+            android:background="@drawable/layout_contact_bg"
+            android:orientation="vertical"
+            android:padding="@dimen/contact_linla_padding_and_marginTop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/contact_linla_padding_and_marginTop"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/content_contact_adresse_left"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorSubject"
+                    android:textSize="@dimen/contact_txt_left"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_contact_adresse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/content_contact_adresse_right"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/contact_txt_right" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/contact_linla_padding_and_marginTop"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/content_contact_horaires_left"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorSubject"
+                    android:textSize="@dimen/contact_txt_left"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewHoraires"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/content_contact_horaires_right"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/contact_txt_right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/contact_linla_padding_and_marginTop"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/content_contact_tel_left"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorSubject"
+                    android:textSize="@dimen/contact_txt_left"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_contact_tel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="phone"
+                    android:clickable="true"
+                    android:gravity="right"
+                    android:text="@string/content_contact_tel_right"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/contact_txt_right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/contact_linla_padding_and_marginTop"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/content_contact_fax_left"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorSubject"
+                    android:textSize="@dimen/contact_txt_left"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_contact_fax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/content_contact_fax_right"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/contact_txt_right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/contact_linla_padding_and_marginTop"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="@string/content_contact_website_left"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorSubject"
+                    android:textSize="@dimen/contact_txt_left"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_contact_web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autoLink="web"
+                    android:clickable="true"
+                    android:gravity="right"
+                    android:text="@string/content_contact_website_right"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="@dimen/contact_txt_right" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

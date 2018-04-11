@@ -1,0 +1,147 @@
+<resources>
+    <!-- PADDING NAVIGATION HEADER TOP -->
+    <dimen name="app_marginTop_header">55dp</dimen>
+
+
+    <!-- content_aide.xml-->
+    <dimen name="aide_linlatxt_padding">10dp</dimen>
+    <dimen name="aide_linla_marginTop_QA">15dp</dimen>
+    <dimen name="aide_linla_marginTop_Question">3dp</dimen>
+
+
+    <!-- content_a_propos.xml -->
+    <dimen name="a_propos_txtSize_left">15sp</dimen>
+    <dimen name="a_propos_txtSize_right">14sp</dimen>
+    <dimen name="a_propos_txtSize_legal">13sp</dimen>
+    <dimen name="a_propos_mainContent_marginTop">345dp</dimen>
+    <dimen name="a_propos_linlaTextViews_marginTop">25dp</dimen>
+    <dimen name="a_propos_btn_marginTop">35dp</dimen>
+
+
+    <!-- content_contact.xml -->
+    <!-- map fragment -->
+    <dimen name="contact_mapfragment_height">250dp</dimen>
+    <dimen name="contact_mapfragment_marginTop">15dp</dimen>
+    <!-- linear layout with textviews -->
+    <dimen name="contact_linla_padding_and_marginTop">5dp</dimen>
+    <dimen name="contact_txt_left">15sp</dimen>
+    <dimen name="contact_txt_right">14sp</dimen>
+
+
+    <!-- content_favoris.xml -->
+    <dimen name="favoris_linla_padding">13dp</dimen>
+    <dimen name="favoris_txt_title">18sp</dimen>
+
+
+    <!-- content_gallery.xml -->
+    <dimen name="gallery_viewPager_marginBottom">72dp</dimen>
+    <dimen name="gallery_imageButton_marginTop">50dp</dimen>
+    <dimen name="gallery_scrollview_height">72dp</dimen>
+    <dimen name="gallery_scrollview_linla_padding">2dp</dimen>
+
+
+    <!-- content_main.xml -->
+    <dimen name="main_linlaButtons_marginBottom">40dp</dimen>
+    <dimen name="main_linlaButtonsTop_marginTop">240dp</dimen>
+    <dimen name="main_linlaButtonsBottom_marginTop">40dp</dimen>
+    <dimen name="main_button_width">100dp</dimen>
+    <dimen name="main_button_height">80dp</dimen>
+    <dimen name="main_button_paddingTop">10dp</dimen>
+    <dimen name="main_button_marginRight">14dp</dimen>
+    <dimen name="main_button_txtSize">13sp</dimen>
+
+
+    <!-- content_mentions_legales.xml -->
+    <dimen name="mentions_legales_txtsize">15sp</dimen>
+    <dimen name="mentions_legales_linla_padding">10dp</dimen>
+
+
+    <!-- content_product_list.xml (Ventes & Locations) -->
+    <dimen name="product_list_linlaReOrderButtons_paddingLeftRight">10dp</dimen>
+    <dimen name="product_list_reOrderButtons_marginRight">10dp</dimen>
+    <dimen name="product_list_btn_txtSize">14dp</dimen>
+
+
+    <!-- content_produit_detail.xml -->
+    <!-- map fragment -->
+    <dimen name="produit_detail_mapHeight">250dip</dimen>
+    <dimen name="produit_detail_mapMargin">10dp</dimen>
+    <!-- margin tops -->
+    <dimen name="produit_detail_marginTop_big_space">15dp</dimen>
+    <dimen name="produit_detail_marginTop_small_space">5dp</dimen>
+    <dimen name="produit_detail_marginTop_detailFields">3dp</dimen>
+    <!-- text sizes -->
+    <dimen name="produit_detail_txtSizePriceArea">16sp</dimen>
+    <dimen name="produit_detail_txtTitleMain">20sp</dimen>
+    <!-- buttons -->
+    <dimen name="produit_detail_btn_favorite">39dp</dimen>
+    <dimen name="produit_detail_btn_marginRight">20dp</dimen>
+    <dimen name="produit_detail_btn_txtSize">13dp</dimen>
+    <!-- view black lines -->
+    <dimen name="produit_detail_blackLineView_height">1dp</dimen>
+    <!-- image showcase -->
+    <dimen name="produit_detail_imageview_height">130dp</dimen>
+    <dimen name="produit_detail_imageview_width">150dp</dimen>
+    <dimen name="produit_detail_recyclerview_height">60dp</dimen>
+    <dimen name="produit_detail_recyclerview_margin">5dp</dimen>
+
+
+    <!-- content_recherche.xml -->
+    <!-- margins & paddings -->
+    <dimen name="recherche_mainLinLa_padding">16dp</dimen>
+    <dimen name="recherche_mainContentMarginTop">150dp</dimen>
+    <dimen name="recherche_individualLinLa_marginTop">10dp</dimen>
+    <!-- spinners -->
+    <dimen name="recherche_spinner_width">100dp</dimen>
+    <dimen name="recherche_spinner_height">40dp</dimen>
+    <!-- checkbox -->
+    <dimen name="recherche_checkbox_widthHeight">40dp</dimen>
+    <!-- switch -->
+    <dimen name="recherche_txtSize">14dp</dimen>
+
+
+    <!-- content_recherche_listview_result.xml -->
+    <dimen name="rechercher_listview_result_title_txtSize">18sp</dimen>
+    <dimen name="rechercher_listview_result_title_marginTop">62dp</dimen>
+    <dimen name="rechercher_listview_result_title_paddingLeft">13dp</dimen>
+
+
+    <!-- content_social.xml -->
+    <dimen name="social_btn_width">120dp</dimen>
+    <dimen name="social_btn_height">90dp</dimen>
+    <dimen name="social_btn_txtSize">15.5sp</dimen>
+    <dimen name="social_btn_marginRight">40dp</dimen>
+    <dimen name="social_btn_paddingTop">10dp</dimen>
+
+
+    <!-- item_list_slideshow.xml -->
+    <dimen name="item_list_slideshow_widthHeight">60dp</dimen>
+    <dimen name="item_list_slideshow_margin">5dp</dimen>
+
+
+    <!--item_row.xml -->
+    <!-- margins & paddings -->
+    <dimen name="item_row_relativelayout_padding">10dp</dimen>
+    <dimen name="item_row_linla_priceArea_marginTop">5dp</dimen>
+    <!-- text sizes -->
+    <dimen name="item_row_txtSize_title">16sp</dimen>
+    <dimen name="item_row_txtSize_shortDescription">12sp</dimen>
+    <dimen name="item_row_txtSize_price">14sp</dimen>
+    <!-- image view -->
+    <dimen name="item_row_imageview_widthHeight">80dp</dimen>
+    <dimen name="item_row_img_marginRight">8dp</dimen>
+
+    <!--nav_header_main.xml-->
+    <dimen name="nav_header_main_txtSize_title">20sp</dimen>
+    <dimen name="nav_header_main_txtSize_motto">15sp</dimen>
+    <dimen name="nav_header_main_iconsize">60dp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

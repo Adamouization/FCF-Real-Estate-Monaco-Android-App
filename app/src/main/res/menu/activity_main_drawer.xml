@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/drawer_title_offres">
+        <menu>
+            <item
+                android:id="@+id/nav_accueil"
+                android:icon="@drawable/ic_home"
+                android:title="@string/drawer_accueil" />
+            <item
+                android:id="@+id/nav_ventes"
+                android:icon="@drawable/ic_action_list_2"
+                android:title="@string/drawer_vente" />
+            <item
+                android:id="@+id/nav_locations"
+                android:icon="@drawable/ic_action_list_2"
+                android:title="@string/drawer_location" />
+            <item
+                android:id="@+id/nav_recherche"
+                android:icon="@drawable/ic_action_search"
+                android:title="@string/drawer_recherche" />
+            <item
+                android:id="@+id/nav_favoris"
+                android:icon="@drawable/ic_star"
+                android:title="@string/drawer_favoris" />
+        </menu>
+    </item>
+
+    <item android:title="@string/drawer_title_connectez_vous">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contacts"
+                android:title="@string/drawer_contact" />
+            <item
+                android:id="@+id/nav_social"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/drawer_reseaux_sociaux" />
+        </menu>
+    </item>
+
+</menu>

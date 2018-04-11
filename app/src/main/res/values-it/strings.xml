@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="url_produit_vente"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=vente]]></string>
+    <string name="url_produit_vente_area_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=vente&order=area&sort=asc]]></string>
+    <string name="url_produit_vente_area_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=vente&order=area&sort=desc]]></string>
+    <string name="url_produit_vente_date_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=vente&order=date&sort=asc]]></string>
+    <string name="url_produit_vente_date_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=vente&order=date&sort=desc]]></string>
+    <string name="url_produit_vente_prix_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=vente&order=price&sort=asc]]></string>
+    <string name="url_produit_vente_prix_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=vente&order=price&sort=desc]]></string>
+    <string name="url_produit_location"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=location]]></string>
+    <string name="url_produit_location_area_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=location&order=area&sort=asc]]></string>
+    <string name="url_produit_location_area_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=location&order=area&sort=desc]]></string>
+    <string name="url_produit_location_date_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=location&order=date&sort=asc]]></string>
+    <string name="url_produit_location_date_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=location&order=date&sort=desc]]></string>
+    <string name="url_produit_location_prix_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=location&order=price&sort=asc]]></string>
+    <string name="url_produit_location_prix_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=it&search[agence][]=216&search[typeTransaction]=location&order=price&sort=desc]]></string>
+    <string name="app_motto">Tailor-made Real Estate</string>
+    <string name="content_search_typeproduits_url"><![CDATA[http://api.immotoolbox.com/xml/2.0/MCRE/typesproduits/?_locale=it]]></string>
+    <string name="content_mentions_legales_content">
+
+        \nLe informazioni contenute nel server web "" è stata ottenuta da fonti ritenute gravi.\n\n
+
+        Monte Carlo Multimedia, l\'editore deve in nessun caso essere ritenuta responsabile per errori o omissioni che possono essere trovati dal lettore, nonostante tutte le precauzioni prese durante la scrittura. Invitiamo il lettore di entrare in contatto diretto con i dipartimenti governativi e professionisti del settore. I documenti riprodotti sono indicativi e non sono in alcun modo capitolato d\'oneri.\n\n
+
+        Riproduzione o l\'uso di presentazioni per gli inserzionisti è gratuito oa pagamento, a meno che un accordo scritto vietato.\n\n
+
+        Link ad altri siti: il sito di Monte Carlo Multimedia contiene link a siti di terze parti che non sono sotto il controllo di Monte Carlo Multimedia\n\n
+
+        I link sono forniti esclusivamente per comodità, e l\'inclusione di link non implica l\'approvazione del sito collegato da Monte Carlo Multimedia.\n\n
+
+        Monte Carlo Multimedia non è responsabile per i contenuti, servizi, prodotti o materiali offerti a un sito, direttamente o indirettamente legata a quella di Monte Carlo Multimedia.\n\n
+
+        Monte Carlo Multimedia è una società monegasca privata non collegata con il governo di Monaco.\n\n
+
+        Monte Carlo Multimedia, Monte Carlo in linea, monte-carlo.mc sono marchi registrati.\n\n
+
+        Si prega di segnalare eventuali errori o omissioni, nonché commenti e domande rimaste Senza risposta a Monte Carlo Multimedia.\n\n
+
+        Monte-Carlo Multimedia\n
+        15 allée Lazare Sauvaigo\n
+        98000 Monaco\n
+        Email: info@montecarlomultimedia.com
+</string>
+    <string name="activity_contact">Contatto</string>
+    <string name="activity_locations">Affitti</string>
+    <string name="activity_social">Rete Sociale</string>
+    <string name="activity_ventes">Vendite</string>
+    <string name="activity_favoris">Preferiti</string>
+    <string name="action_mentions_legales">Menzioni Legali</string>
+    <string name="content_a_propos_copyrights_right">App appartiene a Monte-Carlo Multimedia</string>
+    <string name="content_a_propos_site_left">Sito web:</string>
+    <string name="content_a_propos_version_left">Versione:</string>
+    <string name="content_aide_titre">Aiuto</string>
+    <string name="content_contact_adresse_left">Indirizzo:</string>
+    <string name="content_contact_tel_left">Telefono:</string>
+    <string name="content_contact_website_left">Sito web:</string>
+    <string name="content_favoris_meny_supp">Cancellare</string>
+    <string name="content_main_contact">Contatto</string>
+    <string name="content_main_favoris">Preferiti</string>
+    <string name="content_main_location">Affitti</string>
+    <string name="content_main_recherche">Ricerca</string>
+    <string name="content_main_social">Sociale</string>
+    <string name="content_main_vente">Vendite</string>
+    <string name="content_mentions_legales_soon">Presto disponibile</string>
+    <string name="content_mentions_legales_titre">Menzioni Legali</string>
+    <string name="content_nb_of_items">Numero di risultati:</string>
+    <string name="content_produit_detail_building">Edificio:</string>
+    <string name="content_produit_detail_button_send_info_agency">Contattare l\'agenzia:</string>
+    <string name="content_produit_detail_cellar">Cantina:</string>
+    <string name="content_produit_detail_datel_created">Quartiere:</string>
+    <string name="content_produit_detail_district">Quartiere:</string>
+    <string name="content_produit_detail_email_body_area">- Zona:</string>
+    <string name="content_produit_detail_email_body_information">Vorrei maggiori informazioni sulle vostre offerte.</string>
+    <string name="content_produit_detail_email_body_price">- Prezzo:</string>
+    <string name="content_produit_detail_email_body_reference">- Riferimento:</string>
+    <string name="content_aide_A1">Una volta sulla pagina con tutte i dettagli del prodotto, schiacciare sull’icona in forma d’una stella in alto a destra per aggiungere il prodotto nelle favorite. Se il fondo dell’icona è nera, significa che il prodotto è bene stato aggiunto nella lista dei favorite.</string>
+    <string name="content_aide_A2">Per eliminare diversi favorite in un colpo solo invece di cancellare una alla volta, va alla sua lista dei favorite. Adesso, schiacciare su qualsiasi lista favorite, questo attiverà la modo soppressione. Ora, lei può selezionare diversi favorite della lista cliccando una volta sola, e premere il pulsante per eliminare tutte le favorite selezionate della lista.</string>
+    <string name="produit_area_not_available">Su richiesta</string>
+    <string name="toast_favorite_added">Aggiungere ai preferiti</string>
+    <string name="toast_favorite_removed">Rimuovere dai prefereti</string>
+    <string name="content_produit_detail_gallerie_images">Galleria</string>
+    <string name="content_produit_detail_nb_rooms">Numero di camere:</string>
+    <string name="content_produit_detail_type">Tipo:</string>
+    <string name="content_search_button_reset">Cancellare</string>
+    <string name="content_search_button_search">Ricerca</string>
+    <string name="content_search_checkbox_country">Paese</string>
+    <string name="content_search_checkbox_nb_rooms">Numero di camere</string>
+    <string name="content_search_checkbox_price">Prezzo</string>
+    <string name="content_search_reset_search">Criteri ricerca azzerati</string>
+    <string name="content_search_result_empty">Nessun risultato</string>
+    <string name="content_search_switch_locations">Affitti</string>
+    <string name="content_search_switch_ventes">Vendite</string>
+    <string name="content_a_propos_email_bug_right">Se pensate aver trovato qualche bug prego contattateci:</string>
+    <string name="content_a_propos_email_developer_body">Salve, penso di aver trovato il bug seguente nella vostra applicazione : ...</string>
+    <string name="content_a_propos_email_developer_subject">Bug Android applicazione CF Immobilier</string>
+    <string name="content_contact_horaires_left">Orari di apertura:</string>
+    <string name="content_contact_horaires_right">9:00 a 18:00 la settimana</string>
+    <string name="content_favoris_empty_list">Non avete nessun favorito al momento.</string>
+    <string name="content_produit_detail_button_send_product">Inviare i dettagli\ndel prodotto:</string>
+    <string name="content_produit_detail_datel_last_modified">Ultima modificazione:</string>
+    <string name="content_produit_detail_email_body_product">Vorrei maggiori informazioni su quel prodotto:</string>
+    <string name="content_produit_detail_email_signature">Inviato dall\'applicazione Android Cristea Flandrin Immobilier</string>
+    <string name="content_produit_detail_email_subject_information">Richiesta informazioni </string>
+    <string name="content_produit_detail_email_subject_product">Maggiori informazioni sul prodotto</string>
+    <string name="content_produit_detail_living_area">Superficie abitabile:</string>
+    <string name="content_produit_detail_parking">Numero di parcheggi:</string>
+    <string name="content_produit_detail_ref">Referenza:</string>
+    <string name="content_produit_detail_terrace_area">Superficie terrazza:</string>
+    <string name="content_produit_detail_total_area">Superficie totale:</string>
+    <string name="content_search_checkbox_area">Area</string>
+    <string name="content_search_checkbox_type_product">Tipo di prodotto</string>
+    <string name="content_search_edittex_areamax_hint">Superficie mass</string>
+    <string name="content_search_edittex_pricemax_hint">Prezzo mass</string>
+    <string name="content_search_edittext_areamin_hint">Superficie min</string>
+    <string name="content_search_edittext_pricemin_hint">Prezzo min</string>
+    <string name="content_search_invalid_search">Prego scegliere vendite o affitti</string>
+    <string name="content_search_result_title">Risultati della ricerca</string>
+    <string name="content_search_title">Ricerca</string>
+    <string name="content_ventes_area">Area</string>
+    <string name="content_ventes_date">Data</string>
+    <string name="content_ventes_prix">Prezzo</string>
+    <string name="content_ventes_title">Prodotti in vendita</string>
+    <string name="drawer_a_propos">A proposito</string>
+    <string name="drawer_accueil">Inizio</string>
+    <string name="drawer_aide">Aiuto</string>
+    <string name="drawer_contact">Contatto</string>
+    <string name="drawer_favoris">Favoriti</string>
+    <string name="drawer_location">Affitti</string>
+    <string name="drawer_mentions_legales">Menzioni Legali</string>
+    <string name="drawer_recherche">Ricerca</string>
+    <string name="drawer_reseaux_sociaux">Reti sociali</string>
+    <string name="drawer_title_connectez_vous">Connettetevi</string>
+    <string name="drawer_title_informations">Informazioni</string>
+    <string name="drawer_title_offres">Offerte</string>
+    <string name="drawer_vente">Vendite</string>
+    <string name="toast_area_asc">Area in ordino crescente</string>
+    <string name="toast_area_desc">Area in ordino decrescente</string>
+    <string name="toast_date_asc">Data di modifica in ordino crescente</string>
+    <string name="toast_date_desc">Data di modifica in ordino decrescente</string>
+    <string name="toast_price_asc">Prezzo crescente</string>
+    <string name="toast_price_desc">Prezzo decrescente</string>
+    <string name="content_aide_A3">Una volta sulla pagina con i dettagli di un prodotto, appare una immagine con varie immagini più piccole sulla parte di sotto. Per visionare queste immagini in qualità superiore, cliccare sulla prima immagine per avere accesso alla modalità schermo intero. In questo modo, è possibile visionare le immagini in alta risoluzione e zoomare su tutti i dettagli.</string>
+    <string name="content_aide_Q1">Come aggiungere nei preferiti?</string>
+    <string name="content_aide_Q2">Come cancellare vari icone simultaneamente?</string>
+    <string name="content_aide_Q3">Come accedere alla galleria di immagini? </string>
+    <string name="content_aide_Q4">Come inviare una e-mail all’agenzia?</string>
+    <string name="content_aide_A4">Per inviare una e-mail all’agenzia, entrare nella pagina dei contatti e cliccare sull’icona della posta elettronica. Oppure entrare su qualsiasi pagina con il dettaglio di un prodotto, e cliccare su uno dei due tasti in basso. Questa opzione permette di contattare l’agenzia direttamente per discutere del prodotto che è stato appena visionato.</string>
+    <string name="content_contact_adresse_right">1, Avenue St Laurent</string>
+    <string name="app_name">FCF Real Estate</string>
+</resources>

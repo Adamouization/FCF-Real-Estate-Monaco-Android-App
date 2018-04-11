@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_mentions_legales">Legal Mentions</string>
+    <string name="activity_contact">Contact</string>
+    <string name="activity_favoris">Favorites</string>
+    <string name="activity_locations">Rentals</string>
+    <string name="activity_social">Social Networks</string>
+    <string name="activity_ventes">Sales</string>
+    <string name="app_motto">Tailor-made Real Estate</string>
+    <string name="content_a_propos_copyrights_right">App belongs to Monte-Carlo Multimedia</string>
+    <string name="content_a_propos_site_left">Website:</string>
+    <string name="content_a_propos_version_left">Version:</string>
+    <string name="content_contact_adresse_left">Address:</string>
+    <string name="content_contact_horaires_left">Open hours:</string>
+    <string name="content_contact_horaires_right">9am to 6pm on weekdays</string>
+    <string name="content_contact_tel_left">Phone:</string>
+    <string name="content_contact_website_left">Website:</string>
+    <string name="content_main_contact">Contact</string>
+    <string name="content_main_favoris">Favorites</string>
+    <string name="content_main_location">Rentals</string>
+    <string name="content_main_recherche">Search</string>
+    <string name="content_main_social">Social</string>
+    <string name="content_main_vente">Sales</string>
+    <string name="drawer_a_propos">About</string>
+    <string name="drawer_accueil">Home</string>
+    <string name="drawer_contact">Contact</string>
+    <string name="drawer_favoris">Favorites</string>
+    <string name="drawer_location">Rentals</string>
+    <string name="drawer_mentions_legales">Legal Mentions</string>
+    <string name="drawer_recherche">Search</string>
+    <string name="drawer_reseaux_sociaux">Social Networks</string>
+    <string name="drawer_title_connectez_vous">Stay Connected</string>
+    <string name="drawer_title_informations">Informations</string>
+    <string name="drawer_title_offres">Offers</string>
+    <string name="drawer_vente">Sales</string>
+    <string name="content_produit_detail_building">Building:</string>
+    <string name="content_produit_detail_cellar">Cellar(s):</string>
+    <string name="content_produit_detail_district">District:</string>
+    <string name="content_produit_detail_living_area">Living area:</string>
+    <string name="content_produit_detail_parking">Parking space(s):</string>
+    <string name="content_produit_detail_nb_rooms">Number of rooms:</string>
+    <string name="content_produit_detail_ref">Reference: </string>
+    <string name="content_produit_detail_terrace_area">Terrace area:</string>
+    <string name="content_produit_detail_total_area">Total area:</string>
+    <string name="content_produit_detail_type">Type:</string>
+    <string name="url_produit_vente_date_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=vente&order=date&sort=asc ]]></string>
+    <string name="url_produit_vente_date_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=vente&order=date&sort=desc ]]></string>
+    <string name="url_produit_vente"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=vente]]></string>
+    <string name="url_produit_vente_area_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=vente&order=area&sort=asc]]></string>
+    <string name="url_produit_vente_area_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=vente&order=area&sort=asc]]></string>
+    <string name="url_produit_vente_prix_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=vente&order=price&sort=asc]]></string>
+    <string name="url_produit_vente_prix_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=vente&order=price&sort=desc]]></string>
+    <string name="content_ventes_area">Area</string>
+    <string name="content_ventes_date">Date</string>
+    <string name="content_ventes_prix">Price</string>
+    <string name="content_ventes_title">Products on sale</string>
+    <string name="content_produit_detail_datel_created">Date created:</string>
+    <string name="content_produit_detail_datel_last_modified">Last modification:</string>
+    <string name="toast_area_asc">Area in ascending order</string>
+    <string name="toast_area_desc">Area in descending order</string>
+    <string name="toast_date_asc">Date of last edit in ascending order</string>
+    <string name="toast_date_desc">Date of last edit in descending order</string>
+    <string name="toast_price_asc">Price in ascending order</string>
+    <string name="toast_price_desc">Price in descending order</string>
+    <string name="url_produit_location_area_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=location&order=area&sort=asc]]></string>
+    <string name="url_produit_location"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=location]]></string>
+    <string name="url_produit_location_area_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=location&order=area&sort=desc]]></string>
+    <string name="url_produit_location_date_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=location&order=date&sort=asc]]></string>
+    <string name="url_produit_location_date_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=location&order=date&sort=desc]]></string>
+    <string name="url_produit_location_prix_asc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=location&order=price&sort=asc]]></string>
+    <string name="url_produit_location_prix_desc"><![CDATA[https://api.immotoolbox.com/xml/2.0/AGENCE/produits/?_locale=en&search[agence][]=216&search[typeTransaction]=location&order=price&sort=desc]]></string>
+    <string name="toast_favorite_added">Added to your favorites</string>
+    <string name="toast_favorite_removed">Removed from your favorites</string>
+    <string name="drawer_aide">Help</string>
+    <string name="content_produit_detail_gallerie_images">Gallery</string>
+    <string name="content_search_title">Search</string>
+    <string name="content_search_button_reset">Reset</string>
+    <string name="content_search_button_search">Search</string>
+    <string name="content_search_result_title">Search results</string>
+    <string name="content_search_switch_ventes">Sales</string>
+    <string name="content_search_switch_locations">Rentals</string>
+    <string name="content_search_reset_search">Search criterias reset</string>
+    <string name="content_search_checkbox_area">Area</string>
+    <string name="content_search_checkbox_country">Country</string>
+    <string name="content_search_checkbox_nb_rooms">Number of rooms</string>
+    <string name="content_search_checkbox_price">Price</string>
+    <string name="content_search_checkbox_type_product">Type of product</string>
+    <string name="content_search_edittex_areamax_hint">Max area</string>
+    <string name="content_search_edittex_pricemax_hint">Max price</string>
+    <string name="content_search_edittext_areamin_hint">Area min</string>
+    <string name="content_search_edittext_pricemin_hint">Price min</string>
+    <string name="content_search_typeproduits_url"><![CDATA[http://api.immotoolbox.com/xml/2.0/MCRE/typesproduits/?_locale=en]]></string>
+    <string name="content_search_result_empty">No results</string>
+    <string name="content_favoris_meny_supp">Delete</string>
+    <string name="content_mentions_legales_soon">Soon available</string>
+    <string name="content_mentions_legales_titre">Legal Mentions</string>
+    <string name="content_aide_Q1">How to add favourites? </string>
+    <string name="content_aide_Q2">How to delete multiple favourites simultaneously?</string>
+    <string name="content_aide_Q3">How to access the image gallery?</string>
+    <string name="content_aide_Q4">How to send a mail to the agency? </string>
+    <string name="content_aide_A1">Once you are on the page with all the product details, click on the star icon at the top-right part of the screen. You\'ll know the item was successfully added to your list of favourites if the star\'s background is black.</string>
+    <string name="content_aide_A2">To delete multiple favourite items simultaneously, go to your list of favourites and hold your finger on any of the items from the list. This will activate the deletion mode. You can now select all the items you wish to delete by clicking once on them. Click on the delete button at the top of the screen to delete all the selected items from your list.</string>
+    <string name="content_aide_A3">Once you are on the product detail page, you\'ll see a single image with many smaller thumbnails under it. To view these images in full screen, click on the single image and you\'ll have access to the full screen mode, allowing you to view the images in HD and to zoom in on them. </string>
+    <string name="content_aide_A4">To send a mail to the agency, either go to the contact page and click on the email icon, or go to any product detail page and click on one of the two email buttons at the bottom of the screen. The second option allows you to directly contact the agency with the details of the product you were viewing, allowing you to discuss a specific detail with the agency.</string>
+    <string name="content_produit_detail_email_body_information">I would like to have more information about your real-estate offers.</string>
+    <string name="content_produit_detail_email_body_product">I would like to have more information concerning this product:</string>
+    <string name="content_produit_detail_email_signature">Sent from the Android app Cristea-Flandrin Immobilier</string>
+    <string name="content_produit_detail_email_subject_information">Enquiries for real-estate offers</string>
+    <string name="content_produit_detail_email_subject_product">More information on real-estate offer</string>
+    <string name="content_produit_detail_button_send_info_agency">Contact the\nagency</string>
+    <string name="content_produit_detail_button_send_product">Sent the product\ndetails</string>
+    <string name="content_aide_titre">Help</string>
+    <string name="content_produit_detail_email_body_area">- Area: </string>
+    <string name="content_produit_detail_email_body_price">- Price: </string>
+    <string name="content_produit_detail_email_body_reference">- Reference: </string>
+    <string name="content_favoris_empty_list">You have no favorites saved at this moment.</string>
+    <string name="content_a_propos_email_developer_body">Hello, I believe I have found the following bugs in your application: ...</string>
+    <string name="content_a_propos_email_developer_subject">Bugs android application CF Immobilier</string>
+    <string name="content_a_propos_email_bug_right">If you believe you have found some bugs, please contact us: </string>
+    <string name="content_search_invalid_search">Please select either "sales" or "rentals"</string>
+    <string name="produit_area_not_available">On demand</string>
+    <string name="content_mentions_legales_content">
+        \nThe information contained in the web server "" was obtained from sources believed to be serious.\n\n
+
+        Monte Carlo Multimedia, the publisher shall in no event be liable for errors or omissions that may be found by the reader, despite all precautions taken when writing. We urge the reader to make direct contact with government departments and relevant professionals. The documents reproduced are indicative and are in no way the contract documents.\n\n
+
+        Reproduction or use presentations for advertisers is free or paid, unless written agreement prohibited.\n\n
+
+        Links to other sites: the website of Monte Carlo Multimedia contains links to third party websites which are not under the control of Monte Carlo Multimedia. the links are provided solely as a convenience, and the inclusion of any link does not imply the approval of the linked site by Monte Carlo Multimedia.\n\n
+
+        Monte Carlo Multimedia is not responsible for the content, services, products or material offered at a site directly or indirectly linked to that of Monte Carlo Multimedia.\n\n
+
+        Monte Carlo Multimedia is a private Monegasque company unconnected with the Government of Monaco.\n\n
+
+        Monte Carlo Multimedia, Monte Carlo Online, monte-carlo.mc are registered trademarks.\n\n
+
+        Please report errors or omissions as well as comments and questions remained unanswered in Monte Carlo Multimedia.\n\n
+
+        Monte-Carlo Multimedia\n
+        15 allée Lazare Sauvaigo\n
+        98000 Monaco\n
+        Email : info@montecarlomultimedia.com</string>
+    <string name="content_nb_of_items">Number of results: </string>
+    <string name="content_contact_adresse_right">1, Avenue St Laurent</string>
+    <string name="app_name">FCF Real Estate</string>
+</resources>

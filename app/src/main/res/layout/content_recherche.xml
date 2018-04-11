@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/app_marginTop_header"
+    android:background="@drawable/app_search_background"
+    android:orientation="vertical"
+    android:padding="@dimen/recherche_mainLinLa_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="@dimen/recherche_mainContentMarginTop"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <!-- __________________________________________________________________________________________________-->
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/content_search_title"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <!-- __________________________________________________________________________________________________-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/recherche_individualLinLa_marginTop"
+            android:orientation="horizontal"
+            android:weightSum="1.0">
+
+            <!-- SWITCHERS -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <Switch
+                    android:id="@+id/switch_ventes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:checked="true"
+                    android:text="@string/content_search_switch_ventes"
+                    android:textSize="@dimen/recherche_txtSize" />
+
+                <Switch
+                    android:id="@+id/switch_locations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:checked="false"
+                    android:text="@string/content_search_switch_locations"
+                    android:textSize="@dimen/recherche_txtSize" />
+            </LinearLayout>
+
+            <!-- TYPES OF PRODUCTS -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|left"
+                    android:text="@string/content_search_checkbox_type_product"
+                    android:textSize="@dimen/recherche_txtSize" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkBox_product_type"
+                        android:layout_width="@dimen/recherche_checkbox_widthHeight"
+                        android:layout_height="@dimen/recherche_checkbox_widthHeight"
+                        android:gravity="right" />
+
+                    <Spinner
+                        android:id="@+id/spinner_search_product_type"
+                        android:layout_width="@dimen/recherche_spinner_width"
+                        android:layout_height="@dimen/recherche_spinner_height"
+                        android:background="@drawable/custom_spinner"
+                        android:gravity="right"
+                        android:spinnerMode="dropdown" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- __________________________________________________________________________________________________-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/recherche_individualLinLa_marginTop"
+            android:orientation="horizontal"
+            android:weightSum="1.0">
+
+            <!-- COUNTRY -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.65"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|left"
+                    android:text="@string/content_search_checkbox_country"
+                    android:textSize="@dimen/recherche_txtSize" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkBox_country"
+                        android:layout_width="@dimen/recherche_checkbox_widthHeight"
+                        android:layout_height="@dimen/recherche_checkbox_widthHeight"
+                        android:layout_gravity="left" />
+
+                    <Spinner
+                        android:id="@+id/spinner_search_country"
+                        android:layout_width="@dimen/recherche_spinner_width"
+                        android:layout_height="@dimen/recherche_spinner_height"
+                        android:layout_gravity="left"
+                        android:background="@drawable/custom_spinner"
+                        android:spinnerMode="dropdown" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- NUMBER OF ROOMS -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|left"
+                    android:text="@string/content_search_checkbox_nb_rooms"
+                    android:textSize="@dimen/recherche_txtSize" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkBox_nb_rooms"
+                        android:layout_width="@dimen/recherche_checkbox_widthHeight"
+                        android:layout_height="@dimen/recherche_checkbox_widthHeight"
+                        android:gravity="left" />
+
+                    <Spinner
+                        android:id="@+id/spinner_search_number_of_rooms"
+                        android:layout_width="@dimen/recherche_spinner_width"
+                        android:layout_height="@dimen/recherche_spinner_height"
+                        android:background="@drawable/custom_spinner"
+                        android:gravity="right"
+                        android:spinnerMode="dropdown" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- __________________________________________________________________________________________________-->
+
+
+        <!-- PRICE -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/recherche_individualLinLa_marginTop"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/content_search_checkbox_price"
+                android:textSize="@dimen/recherche_txtSize" />
+
+            <EditText
+                android:id="@+id/edit_text_min_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/content_search_edittext_pricemin_hint"
+                android:inputType="number"
+                android:textSize="@dimen/recherche_txtSize" />
+
+            <EditText
+                android:id="@+id/edit_text_max_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/content_search_edittex_pricemax_hint"
+                android:inputType="number"
+                android:textSize="@dimen/recherche_txtSize" />
+
+        </LinearLayout>
+
+        <!-- __________________________________________________________________________________________________-->
+
+        <!-- AREA -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/recherche_individualLinLa_marginTop"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/content_search_checkbox_area"
+                android:textSize="@dimen/recherche_txtSize" />
+
+            <EditText
+                android:id="@+id/edit_text_min_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/content_search_edittext_areamin_hint"
+                android:inputType="number"
+                android:textSize="@dimen/recherche_txtSize" />
+
+            <EditText
+                android:id="@+id/edit_text_max_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/content_search_edittex_areamax_hint"
+                android:inputType="number"
+                android:textSize="@dimen/recherche_txtSize" />
+
+        </LinearLayout>
+
+        <!-- __________________________________________________________________________________________________-->
+
+        <!-- BUTTONS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/recherche_individualLinLa_marginTop"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_recherche_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_search_button_reset"
+                android:textColor="@color/colorCancelButton"
+                android:textSize="@dimen/recherche_txtSize"/>
+
+            <Button
+                android:id="@+id/button_recherche_launch_research"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_search_button_search"
+                android:textColor="@color/colorSearchButton"
+                android:textSize="@dimen/recherche_txtSize"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
