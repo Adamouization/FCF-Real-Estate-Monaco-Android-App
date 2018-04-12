@@ -21,37 +21,13 @@ Works on mobiles and tablets with **Android 4.0.3 and up**.
 
 #### Screenshots
 
-###### Home screen: 
+ Home Screen               |  Products Page            | Product Detail Page       | Product Image Gallery
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122430.png" width="200">  | <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122437.png" width="200"> |  <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122445.png" width="200"> | <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122452.png" width="200">
 
-<img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122430.png" width="250">
-
-###### ListView of Products:
-
-<img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122437.png" width="250">
-
-###### Product detail:
-
-<img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122445.png" width="250">
-
-###### HD Image Gallery:
-
-<img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122452.png" width="250">
-
-###### Search Engine:
-
-<img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122550.png" width="250">
-
-###### Contact Activity:
-
-<img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122610.png" width="250">
-
-###### Selecting Favourites:
-
-<img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122631.png" width="250">
-
-###### Navigation Menu:
-
-<img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122642.png" width="250">
+Search Engine Page         |  Contact Page             | Favourites Selection      | Navigation Menu
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122550.png" width="200">  |  <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122610.png" width="200"> |  <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122631.png" width="200"> | <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122642.png" width="200">
 
 ## Download
 [![Get it on Google Play](https://raw.github.com/repat/README-template/master/googleplay.png)](https://play.google.com/store/apps/details?id=com.monte_carlo_multimedia.adam_jaamour.fcfimmobilier)
