@@ -1,18 +1,9 @@
-# Cristea-Flandrin Immobilier Android Application
+FCF Real-Estate Android Application
+=================
 
-> App developped by Adam Jaamour.
+**FCF Real-Estate** is a catalogue to view real-estate offers from FCF Real-Estate Monaco available for sale/renting.
 
-> Soon available on the Google Play store (end of July).
-
-> The app belongs to [Monte-Carlo Multimedia](http://www.montecarlomultimedia.com/) .
- 
-> Legal Mentions: [Legal Mentions MCM](http://www.montecarlomultimedia.com/avertissement.php) .
-
-
-## Android application for Cristea Flandrin Immobilier real estate agency.
-
-
-### Features implemented so far:
+#### Features
 
 * Data retrieved from various XML feeds, so app can be easily adapted to another agency by simply changing the XML feeds.
 * Possibility to reorder the listViews of sales and rentals according to date last edited, price and area (all in ascending and descending order).
@@ -24,14 +15,11 @@
 * Direct email with the agency in question (including all information about the product user wishes to talk about).
 * Google Maps implementation for the agency and each product. The location is already marked and zoomed on when opening the page so that the user knows where the estate is located and can get directions to it in a click. Ability to zoom/unzoom map and get route to location.
 
-### Features to implement:
+#### Tests
 
-* Italian language
-* Design compability with devices with smaller screens.
+Works on mobiles and tablets with **Android 4.0.3 and up**.
 
-
-### Screenshots
-
+#### Screenshots
 Home screen: 
 
 ![Home screen](http://image.prntscr.com/image/06681512a7f1496986c0e5948a1d4db4.png)
@@ -55,3 +43,27 @@ Search Engine:
 Contact Activity:
 
 ![Contact Activity](http://image.prntscr.com/image/0286d6b327d345628ae6f79ac8bc922d.png)
+
+## Download
+[![Get it on Google Play](https://raw.github.com/repat/README-template/master/googleplay.png)](https://play.google.com/store/apps/details?id=com.monte_carlo_multimedia.adam_jaamour.fcfimmobilier)
+
+![QR-Code Android](https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/qrcode_googleplaystore.png)
+
+## Third party libraries
+* see [LIBRARIES.md](https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/tree/master) files
+
+## License 
+* see [LICENSE](https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/LICENSE) file
+* see [MCM Legal Mentions](http://www.montecarlomultimedia.com/avertissement.php)
+
+## Version 
+* Version 1.1.0
+
+## How-to use this code
+* see [INSTRUCTIONS](https://github.com/username/appname/blob/master/INSTRUCTIONS.md) file
+
+## Contact
+#### Developer/Company
+* email: adam@jaamour.com
+* website: www.adam.jaamour.com
+* twitter: [@Adamouization](https://twitter.com/Adamouization)
