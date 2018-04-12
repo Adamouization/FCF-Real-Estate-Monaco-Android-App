@@ -1,9 +1,9 @@
 FCF Real-Estate Android Application
 =================
 
-**FCF Real-Estate** is a catalogue to view real-estate offers from FCF Real-Estate Monaco available for sale/renting.
+**FCF Real-Estate** is a catalogue to view real-estate offers from FCF Real-Estate Monaco available for sale/renting. Works on mobiles and tablets with **Android 4.0.3 and up**.
 
-#### Features
+## Features
 
 * Data retrieved from various XML feeds, so app can be easily adapted to another agency by simply changing the XML feeds.
 * Possibility to reorder the listViews of sales and rentals according to date last edited, price and area (all in ascending and descending order).
@@ -15,11 +15,7 @@ FCF Real-Estate Android Application
 * Direct email with the agency in question (including all information about the product user wishes to talk about).
 * Google Maps implementation for the agency and each product. The location is already marked and zoomed on when opening the page so that the user knows where the estate is located and can get directions to it in a click. Ability to zoom/unzoom map and get route to location.
 
-#### Tests
-
-Works on mobiles and tablets with **Android 4.0.3 and up**.
-
-#### Screenshots
+### Screenshots
 
  Home Screen               |  Products Page            | Product Detail Page       | Product Image Gallery
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
@@ -35,11 +31,11 @@ Search Engine Page         |  Contact Page             | Favourites Selection   
 ![QR-Code Android](https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/qrcode_googleplaystore.png)
 
 ## Third party libraries
-* see [LIBRARIES.md](https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/tree/master) files
+* [Android Universal Image Loader](https://github.com/nostra13/Android-Universal-Image-Loader), see [license](https://github.com/nostra13/Android-Universal-Image-Loader/blob/master/LICENSE)
 
 ## License 
 * see [LICENSE](https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/LICENSE) file
-* see [MCM Legal Mentions](http://www.montecarlomultimedia.com/avertissement.php)
+* see [MCM Legal Mentions](http://www.montecarlomultimedia.com/avertissement.php) webpage
 
 ## Version 
 * Version 1.1.0
@@ -48,7 +44,6 @@ Search Engine Page         |  Contact Page             | Favourites Selection   
 * see [INSTRUCTIONS](https://github.com/username/appname/blob/master/INSTRUCTIONS.md) file
 
 ## Contact
-#### Developer/Company
 * email: adam@jaamour.com
 * website: www.adam.jaamour.com
 * twitter: [@Adamouization](https://twitter.com/Adamouization)
