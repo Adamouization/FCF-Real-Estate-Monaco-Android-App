@@ -28,7 +28,7 @@ Search Engine Page         |  Contact Page             | Favourites Selection   
 <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122550.png" width="200">  |  <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122610.png" width="200"> |  <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122631.png" width="200"> | <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122642.png" width="200">
 
 ## Download
-<img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/get_it_on_google_play.png" width="150"> <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/qrcode_googleplaystore.png" width="150">
+<img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/get-it-on-google-play.png" width="150"> <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/qrcode_googleplaystore.png" width="150">
 
 ## Third party libraries
 * [Android Universal Image Loader](https://github.com/nostra13/Android-Universal-Image-Loader), see [license](https://github.com/nostra13/Android-Universal-Image-Loader/blob/master/LICENSE)
@@ -39,9 +39,6 @@ Search Engine Page         |  Contact Page             | Favourites Selection   
 
 ## Version 
 * Version 1.0.0
-
-## How-to use this code
-todo - add instructions
 
 ## Contact
 * email: adam@jaamour.com
