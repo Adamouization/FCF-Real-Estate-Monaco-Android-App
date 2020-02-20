@@ -1,5 +1,4 @@
-FCF Real-Estate Android Application
-===================================
+# FCF Real-Estate Android Application [![HitCount](http://hits.dwyl.com/Adamouization/FCF-Real-Estate-Monaco-Android-App.svg)](http://hits.dwyl.com/Adamouization/FCF-Real-Estate-Monaco-Android-App) [![Stars](https://img.shields.io/github/stars/Adamouization/FCF-Real-Estate-Monaco-Android-App)](https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/stargazers) [![Forks](https://img.shields.io/github/forks/Adamouization/FCF-Real-Estate-Monaco-Android-App)](https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/network) [![License](https://img.shields.io/github/license/Adamouization/FCF-Real-Estate-Monaco-Android-App)](https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/LICENSE)
 
 **FCF Real-Estate** is a catalogue to browse *FCF Real-Estate Monaco*'s properties available for sale & renting. 
 
@@ -28,7 +27,7 @@ Search Engine Page         |  Contact Page             | Favourites Selection   
 <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122550.png" width="200">  |  <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122610.png" width="200"> |  <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122631.png" width="200"> | <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/Screenshots%20playstore/screenshots%20anglais/Screenshot_20160726-122642.png" width="200">
 
 ## Download
-<img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/get-it-on-google-play.png" width="150"> <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/qrcode_googleplaystore.png" width="150">
+<a href="https://bit.ly/2qqexsH"><img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/get-it-on-google-play.png" width="150"></a> <img src="https://github.com/Adamouization/FCF-Real-Estate-Monaco-Android-App/blob/master/media/qrcode_googleplaystore.png" width="150">
 
 ## Third party libraries
 * [Android Universal Image Loader](https://github.com/nostra13/Android-Universal-Image-Loader), see [license](https://github.com/nostra13/Android-Universal-Image-Loader/blob/master/LICENSE)
@@ -41,6 +40,6 @@ Search Engine Page         |  Contact Page             | Favourites Selection   
 * Version 1.0.0
 
 ## Contact
-* email: adam@jaamour.com
 * website: www.adam.jaamour.com
+* LinkedIn: [www.linkedin.com/in/adamjaamour](https://www.linkedin.com/in/adamjaamour/)
 * twitter: [@Adamouization](https://twitter.com/Adamouization)
